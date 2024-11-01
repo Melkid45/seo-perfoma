@@ -1,0 +1,31 @@
+.bread {
+    width: 100%;
+    margin-top: 10px;
+
+    &__body {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #2C2C2C;
+        }
+        svg{
+            width: 31px;
+            height: 9px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color:#2C2C2C66;
+        }
+    }
+}
